@@ -2,12 +2,11 @@ package org.alopedraza;
 
 import java.util.Arrays;
 import java.util.TreeSet;
-import java.util.stream.Stream;
 
 public class Solution {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		//An example
 		int[] A = {86, 1463, 85, 85, 5798, 2, 85, 2, 86};
 		
 		Solution sol= new Solution();
@@ -15,7 +14,7 @@ public class Solution {
 		if (leaders.length != 0)
 			Arrays.stream(leaders).boxed().forEach(System.out::println);
 		else
-			System.out.println("Value of array can't be leader");
+			System.out.println("Values of array can't be leader");
 	}
 	
 	public int[] solution(int K, int M, int[] A){
